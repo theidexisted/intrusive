@@ -392,7 +392,7 @@ Once the list is defined, we can use it:
    Foo foo_object;
    FooList list;
 
-   list.push_back(object);
+   list.push_back(foo_object);
 
    assert(&list.front() == &foo_object);
 
@@ -444,7 +444,7 @@ Now we can use the container:
    Foo foo_object;
    FooList list;
 
-   list.push_back(object);
+   list.push_back(foo_object);
 
    assert(&list.front() == &foo_object);
 
